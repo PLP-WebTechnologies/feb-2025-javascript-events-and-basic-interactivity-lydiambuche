@@ -1,0 +1,94 @@
+/* These styles apply to the overall layout and typography of the page.
+*/
+body {
+    font-family: Arial, sans-serif; /* Sets the default font for the page */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+/* 
+  Header, Navigation, and Footer
+  Styles for the top and bottom sections of the page.
+*/
+header, nav, footer {
+    background: #333; /* Dark background color */
+    color: white; /* White text color */
+    padding: 1rem; /* Adds spacing inside the elements */
+    text-align: center; /* Centers the text */
+}
+
+/* 
+  Navigation Links
+  Styles for the links within the navigation bar.
+*/
+nav a {
+    color: white; /* White text color for links */
+    margin: 0 10px; /* Horizontal spacing between links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* 
+  Buttons
+  General styles for all buttons on the page.
+*/
+button {
+    padding: 0.5rem 1rem; /* Vertical and horizontal padding */
+    margin-top: 1rem; /* Top margin to separate from elements above */
+}
+
+/* 
+  Utility Classes
+  Classes that can be reused throughout the page.
+*/
+.hidden {
+    display: none; /* Hides elements from view */
+}
+
+/* 
+  Tab Content
+  Styles for tabbed content sections.
+*/
+.tab-content {
+    display: none; /* Hides all tab content by default */
+    padding: 1rem; /* Adds spacing inside the tab content */
+    background: #f0f0f0; /* Light gray background color */
+}
+
+/* 
+  Active Tab
+  Styles for the currently active tab.
+*/
+.tab-content.active {
+    display: block; /* Displays the active tab content */
+}
+
+/* 
+  Slideshow
+  Styles for the image slideshow section.
+*/
+#slideshow img {
+    width: 100%; /* Makes the image take up the full width of its container */
+    max-width: 500px; /* Sets a maximum width for the image */
+    height: auto; /* Maintains the aspect ratio of the image */
+}
+
+/* 
+  Form Validation
+  Styles for form input fields based on their validation state.
+*/
+input:invalid {
+    border-color: red; /* Red border for invalid inputs */
+}
+
+input:valid {
+    border-color: green; /* Green border for valid inputs */
+}
+
+/* 
+  Feedback Messages
+  Styles for feedback messages displayed to the user.
+*/
+.feedback {
+    font-size: 0.9rem; /* Slightly smaller text size */
+    color: red; /* Red text color for error messages */
+}
